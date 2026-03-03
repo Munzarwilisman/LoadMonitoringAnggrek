@@ -84,7 +84,7 @@ UNITS = {
 
 # Register map ION7400 MEM module (offset: register - 1)
 REGISTERS = {
-    "vln"  : 3036,   # Voltage L-N Avg    [V]
+    "vln"  : 3026,   # Voltage L-N Avg    [V]
     "iavg" : 3010,   # Current Avg        [A]
     "kwtot": 3060,   # Active Power Total [W]
     "freq" : 3110,   # Frequency          [Hz]
@@ -379,3 +379,4 @@ st.markdown(
     f'</div>',
     unsafe_allow_html=True
 )
+
